@@ -3,7 +3,7 @@ import Navbar from "./Navbar"
 
 const Hero = () => {
   return (
-    <div className="rounded-[2rem] h-[135vh] m-2 md:relative px-3 pt-6 md:px-24 md:pt-12 bg-cover bg-center bg-no-repeat bg-[url('HeroGraphic-mobile.svg')] lg:bg-[url('HeroGraphic.svg')]">
+    <div className="rounded-[2rem] h-[135vh] m-2 md:relative px-3 pt-6 md:px-24 md:pt-12 bg-cover bg-center bg-no-repeat bg-[url('/HeroGraphic-mobile.svg')] lg:bg-[url('/HeroGraphic.svg')]">
       <Navbar />
       <div className="mt-[10rem] mb-[5rem] sm:mb-[2rem] flex flex-col gap-5 items-center text-center lg:text-left lg:items-start">
         <h1 className="font-bold text-3xl lg:text-6xl">
