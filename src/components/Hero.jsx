@@ -1,12 +1,25 @@
 import CTAButton from "./CTAButton"
+import Navbar from "./Navbar"
 
 const Hero = () => {
   return (
-    <div className="h-[100vh] my-[10rem] flex flex-col gap-5 items-center sm:items-start">
-        <h1 className="font-bold text-3xl sm:text-6xl sm:text-left ">Navigate the Future of <br className="hidden md:block" /> Crypto with VariableAI</h1>
-        <p className="text-[rgba(255,255,255,0.6)] sm:text-2xl sm:text-left">Your mate for perpetual trading making sure that you make <br className="hidden md:block" /> the most out of every trade</p>
-
-        <CTAButton buttonBg="rgba(0,0,0.0)" borderColor="white" buttonText="white" iconBg="white" iconColor="black" />
+    <div className="rounded-[2rem] h-[135vh] m-2 md:relative px-3 pt-6 md:px-24 md:pt-12 bg-cover bg-center bg-no-repeat bg-[url('HeroGraphic-mobile.svg')] lg:bg-[url('HeroGraphic.svg')]">
+      <Navbar />
+      <div className="mt-[10rem] mb-[5rem] sm:mb-[2rem] flex flex-col gap-5 items-center text-center lg:text-left lg:items-start">
+        <h1 className="font-bold text-3xl lg:text-6xl">
+          Navigate the Future of <br className="hidden md:block" /> Crypto with VariableAI
+        </h1>
+        <p className="text-[rgba(255,255,255,0.6)] lg:text-2xl">
+          Your mate for perpetual trading making sure that you make <br className="hidden md:block" /> the most out of every trade
+        </p>
+        <CTAButton 
+          buttonBg="rgba(0,0,0.0)" 
+          borderColor="white" 
+          buttonText="white" 
+          iconBg="white" 
+          iconColor="black"
+        />
+      </div>
     </div>
   )
 }
