@@ -11,7 +11,7 @@ const Footer = () => {
             <img src="logo.svg" alt="VariableAI Logo" className="h-10 w-10" />
             <h1 className="text-white text-2xl font-bold">VariableAI</h1>
           </div>
-          <p className={`text-left ${linkStyle}`}>
+          <p className='text-left text-[rgba(255,255,255,0.6)]'>
             VariableBot is a state-of-the-art perpetual trading platform utilizing <br className="hidden sm:block" />
             advanced algorithms to optimize your cryptocurrency trading
           </p>
