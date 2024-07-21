@@ -1,6 +1,6 @@
 
 const Footer = () => {
-  const linkStyle = "text-[rgba(255,255,255,0.6)]"
+  const linkStyle = "text-[rgba(255,255,255,0.6)] hover:text-white transition-colors duration-200"
 
   return (
     <footer className="px-6 pt-6 md:px-24 md:pt-12">
@@ -40,9 +40,9 @@ const Footer = () => {
       </div>
 
       {/* Footer Bottom */}
-      <div className={`flex flex-col justify-center font-extralight text-center mt-10 mb-10 md:text-left md:flex-row md:justify-between ${linkStyle}`}>
-        <p>© VariableAI 2024. All rights reserved</p>
-        <a href="#" className="underline">Terms and Conditions</a>
+      <div className={`flex flex-col justify-center font-extralight text-center mt-10 mb-10 md:text-left md:flex-row md:justify-between`}>
+        <p className="text-[rgba(255,255,255,0.6)]">© VariableAI 2024. All rights reserved</p>
+        <a href="#" className={`${linkStyle} underline`}>Terms and Conditions</a>
       </div>
     </footer>
   )
