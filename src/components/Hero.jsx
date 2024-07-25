@@ -16,8 +16,8 @@ const Hero = () => {
           variant="secondary"
         />
       </div>
-      <div className="flex justify-center pt-10 lg:justify-end lg:pt-0">
-      <div className="relative w-60 h-60 md:w-64 md:h-64 lg:w-80 lg:h-80 xl:w-96 xl:h-96
+      <div className="flex justify-center mt-10 lg:justify-end md:mt-0">
+      <div className="relative w-60 h-60 md:w-64 md:h-64 lg:w-80 lg:h-80 
                       flex items-center justify-center
                       bg-gradient-to-br from-white/20 to-purple-500/5
                       shadow-[-0.5rem_-0.5rem_2rem_rgba(212,212,212,0.5)]
