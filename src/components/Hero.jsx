@@ -16,6 +16,21 @@ const Hero = () => {
           variant="secondary"
         />
       </div>
+      <div className="flex justify-center pt-10 lg:justify-end lg:pt-0">
+      <div className="relative w-60 h-60 md:w-64 md:h-64 lg:w-80 lg:h-80 xl:w-96 xl:h-96
+                      flex items-center justify-center
+                      bg-gradient-to-br from-white/20 to-purple-500/5
+                      shadow-[-0.5rem_-0.5rem_2rem_rgba(212,212,212,0.5)]
+                      rounded-3xl border border-white/6
+                      backdrop-blur-sm
+                      animate-logo-movement">
+        <img 
+          src="/Logo-lg.svg" 
+          alt="Logo" 
+          className="w-4/5 h-4/5 object-contain"
+        />
+      </div>
+    </div>
     </div>
   )
 }
